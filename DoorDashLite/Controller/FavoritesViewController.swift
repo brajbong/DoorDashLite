@@ -1,20 +1,16 @@
 //
-//  ViewController.swift
+//  FavoritesViewController.swift
 //  DoorDashLite
 //
-//  Created by Rajbongshi, Bhaskar on 6/15/19.
+//  Created by Rajbongshi, Bhaskar on 6/16/19.
 //  Copyright © 2019 Rajbongshi, Bhaskar. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class FavoritesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

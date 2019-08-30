@@ -8,11 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		AC1A7E2422B5C13D003F4BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A7E2322B5C13D003F4BCA /* AppDelegate.swift */; };
-		AC1A7E2622B5C13D003F4BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A7E2522B5C13D003F4BCA /* ViewController.swift */; };
 		AC1A7E2922B5C13D003F4BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A7E2722B5C13D003F4BCA /* Main.storyboard */; };
 		AC1A7E2B22B5C13E003F4BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1A7E2A22B5C13E003F4BCA /* Assets.xcassets */; };
 		AC1A7E2E22B5C13E003F4BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1A7E2C22B5C13E003F4BCA /* LaunchScreen.storyboard */; };
-		AC1A7E3922B5C13E003F4BCA /* DoorDashLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A7E3822B5C13E003F4BCA /* DoorDashLiteTests.swift */; };
+		AC1A7E4522B5C21C003F4BCA /* LocationMapSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A7E4422B5C21C003F4BCA /* LocationMapSelectViewController.swift */; };
+		AC3616C322B74E61005FF4C9 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616C222B74E61005FF4C9 /* NetworkSession.swift */; };
+		AC3616C522B74FF0005FF4C9 /* NetworkSessionMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616C422B74FF0005FF4C9 /* NetworkSessionMocks.swift */; };
+		AC3616C722B75440005FF4C9 /* DDLiteTestNetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616C622B75440005FF4C9 /* DDLiteTestNetworkCalls.swift */; };
+		AC3616C922B8092E005FF4C9 /* LocationMapSelectViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616C822B8092E005FF4C9 /* LocationMapSelectViewControllerTests.swift */; };
+		AC3616CB22B81BD3005FF4C9 /* StoresListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616CA22B81BD3005FF4C9 /* StoresListViewControllerTests.swift */; };
+		AC3616EA22B83776005FF4C9 /* Bundle+DDURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3616E922B83775005FF4C9 /* Bundle+DDURL.swift */; };
+		ACBDA89822B5E9BF006E3CFA /* StoresListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA89722B5E9BF006E3CFA /* StoresListViewController.swift */; };
+		ACBDA89B22B5EA01006E3CFA /* StoresListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA89A22B5EA01006E3CFA /* StoresListViewModel.swift */; };
+		ACBDA89E22B5EA5E006E3CFA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA89D22B5EA5E006E3CFA /* Store.swift */; };
+		ACBDA8A422B5FFEE006E3CFA /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8A322B5FFEE006E3CFA /* StoreService.swift */; };
+		ACBDA8A622B60071006E3CFA /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8A522B60071006E3CFA /* Resource.swift */; };
+		ACBDA8A822B606EE006E3CFA /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8A722B606EE006E3CFA /* Networking.swift */; };
+		ACBDA8AB22B6082B006E3CFA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8AA22B6082B006E3CFA /* NetworkService.swift */; };
+		ACBDA8AD22B61CBF006E3CFA /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8AC22B61CBF006E3CFA /* URLSession+Extension.swift */; };
+		ACBDA8AF22B6228F006E3CFA /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8AE22B6228F006E3CFA /* ImageService.swift */; };
+		ACBDA8B122B622FD006E3CFA /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8B022B622FD006E3CFA /* CacheService.swift */; };
+		ACBDA8B422B6AF56006E3CFA /* StoresListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8B322B6AF56006E3CFA /* StoresListCell.swift */; };
+		ACBDA8B622B6FC72006E3CFA /* DDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8B522B6FC72006E3CFA /* DDTabBarController.swift */; };
+		ACBDA8B822B6FD35006E3CFA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8B722B6FD35006E3CFA /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +46,32 @@
 /* Begin PBXFileReference section */
 		AC1A7E2022B5C13D003F4BCA /* DoorDashLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A7E2322B5C13D003F4BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC1A7E2522B5C13D003F4BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC1A7E2822B5C13D003F4BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC1A7E2A22B5C13E003F4BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1A7E2D22B5C13E003F4BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1A7E2F22B5C13E003F4BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC1A7E3422B5C13E003F4BCA /* DoorDashLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC1A7E3822B5C13E003F4BCA /* DoorDashLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashLiteTests.swift; sourceTree = "<group>"; };
 		AC1A7E3A22B5C13E003F4BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1A7E4422B5C21C003F4BCA /* LocationMapSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapSelectViewController.swift; sourceTree = "<group>"; };
+		AC3616C222B74E61005FF4C9 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		AC3616C422B74FF0005FF4C9 /* NetworkSessionMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionMocks.swift; sourceTree = "<group>"; };
+		AC3616C622B75440005FF4C9 /* DDLiteTestNetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDLiteTestNetworkCalls.swift; sourceTree = "<group>"; };
+		AC3616C822B8092E005FF4C9 /* LocationMapSelectViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapSelectViewControllerTests.swift; sourceTree = "<group>"; };
+		AC3616CA22B81BD3005FF4C9 /* StoresListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresListViewControllerTests.swift; sourceTree = "<group>"; };
+		AC3616E922B83775005FF4C9 /* Bundle+DDURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+DDURL.swift"; sourceTree = "<group>"; };
+		ACBDA89722B5E9BF006E3CFA /* StoresListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresListViewController.swift; sourceTree = "<group>"; };
+		ACBDA89A22B5EA01006E3CFA /* StoresListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresListViewModel.swift; sourceTree = "<group>"; };
+		ACBDA89D22B5EA5E006E3CFA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		ACBDA8A322B5FFEE006E3CFA /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		ACBDA8A522B60071006E3CFA /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		ACBDA8A722B606EE006E3CFA /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		ACBDA8AA22B6082B006E3CFA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		ACBDA8AC22B61CBF006E3CFA /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		ACBDA8AE22B6228F006E3CFA /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		ACBDA8B022B622FD006E3CFA /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		ACBDA8B322B6AF56006E3CFA /* StoresListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresListCell.swift; sourceTree = "<group>"; };
+		ACBDA8B522B6FC72006E3CFA /* DDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDTabBarController.swift; sourceTree = "<group>"; };
+		ACBDA8B722B6FD35006E3CFA /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +113,13 @@
 		AC1A7E2222B5C13D003F4BCA /* DoorDashLite */ = {
 			isa = PBXGroup;
 			children = (
+				ACBDA8B222B6AECB006E3CFA /* Custom Cell */,
+				ACBDA8A022B5EB40006E3CFA /* Core */,
+				ACBDA89F22B5EB0F006E3CFA /* Service */,
+				ACBDA89C22B5EA54006E3CFA /* Model */,
+				ACBDA89922B5E9E3006E3CFA /* View Model */,
+				AC1A7E4322B5C1D3003F4BCA /* Controller */,
 				AC1A7E2322B5C13D003F4BCA /* AppDelegate.swift */,
-				AC1A7E2522B5C13D003F4BCA /* ViewController.swift */,
 				AC1A7E2722B5C13D003F4BCA /* Main.storyboard */,
 				AC1A7E2A22B5C13E003F4BCA /* Assets.xcassets */,
 				AC1A7E2C22B5C13E003F4BCA /* LaunchScreen.storyboard */,
@@ -90,10 +131,87 @@
 		AC1A7E3722B5C13E003F4BCA /* DoorDashLiteTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC1A7E3822B5C13E003F4BCA /* DoorDashLiteTests.swift */,
 				AC1A7E3A22B5C13E003F4BCA /* Info.plist */,
+				AC3616C422B74FF0005FF4C9 /* NetworkSessionMocks.swift */,
+				AC3616C622B75440005FF4C9 /* DDLiteTestNetworkCalls.swift */,
+				AC3616C822B8092E005FF4C9 /* LocationMapSelectViewControllerTests.swift */,
+				AC3616CA22B81BD3005FF4C9 /* StoresListViewControllerTests.swift */,
 			);
 			path = DoorDashLiteTests;
+			sourceTree = "<group>";
+		};
+		AC1A7E4322B5C1D3003F4BCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A7E4422B5C21C003F4BCA /* LocationMapSelectViewController.swift */,
+				ACBDA89722B5E9BF006E3CFA /* StoresListViewController.swift */,
+				ACBDA8B522B6FC72006E3CFA /* DDTabBarController.swift */,
+				ACBDA8B722B6FD35006E3CFA /* FavoritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACBDA89922B5E9E3006E3CFA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA89A22B5EA01006E3CFA /* StoresListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		ACBDA89C22B5EA54006E3CFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA89D22B5EA5E006E3CFA /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACBDA89F22B5EB0F006E3CFA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA8A322B5FFEE006E3CFA /* StoreService.swift */,
+				ACBDA8AA22B6082B006E3CFA /* NetworkService.swift */,
+				ACBDA8AE22B6228F006E3CFA /* ImageService.swift */,
+				ACBDA8B022B622FD006E3CFA /* CacheService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ACBDA8A022B5EB40006E3CFA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA8A222B5EB5D006E3CFA /* Networking */,
+				ACBDA8A122B5EB4E006E3CFA /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ACBDA8A122B5EB4E006E3CFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA8AC22B61CBF006E3CFA /* URLSession+Extension.swift */,
+				AC3616E922B83775005FF4C9 /* Bundle+DDURL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACBDA8A222B5EB5D006E3CFA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA8A522B60071006E3CFA /* Resource.swift */,
+				ACBDA8A722B606EE006E3CFA /* Networking.swift */,
+				AC3616C222B74E61005FF4C9 /* NetworkSession.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ACBDA8B222B6AECB006E3CFA /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA8B322B6AF56006E3CFA /* StoresListCell.swift */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1A7E2622B5C13D003F4BCA /* ViewController.swift in Sources */,
+				ACBDA8AB22B6082B006E3CFA /* NetworkService.swift in Sources */,
+				ACBDA89822B5E9BF006E3CFA /* StoresListViewController.swift in Sources */,
+				ACBDA8A622B60071006E3CFA /* Resource.swift in Sources */,
+				ACBDA8B622B6FC72006E3CFA /* DDTabBarController.swift in Sources */,
+				AC1A7E4522B5C21C003F4BCA /* LocationMapSelectViewController.swift in Sources */,
+				ACBDA8A822B606EE006E3CFA /* Networking.swift in Sources */,
+				ACBDA8AF22B6228F006E3CFA /* ImageService.swift in Sources */,
+				ACBDA89E22B5EA5E006E3CFA /* Store.swift in Sources */,
 				AC1A7E2422B5C13D003F4BCA /* AppDelegate.swift in Sources */,
+				ACBDA8B422B6AF56006E3CFA /* StoresListCell.swift in Sources */,
+				ACBDA8A422B5FFEE006E3CFA /* StoreService.swift in Sources */,
+				ACBDA89B22B5EA01006E3CFA /* StoresListViewModel.swift in Sources */,
+				AC3616EA22B83776005FF4C9 /* Bundle+DDURL.swift in Sources */,
+				ACBDA8AD22B61CBF006E3CFA /* URLSession+Extension.swift in Sources */,
+				AC3616C322B74E61005FF4C9 /* NetworkSession.swift in Sources */,
+				ACBDA8B822B6FD35006E3CFA /* FavoritesViewController.swift in Sources */,
+				ACBDA8B122B622FD006E3CFA /* CacheService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1A7E3922B5C13E003F4BCA /* DoorDashLiteTests.swift in Sources */,
+				AC3616CB22B81BD3005FF4C9 /* StoresListViewControllerTests.swift in Sources */,
+				AC3616C522B74FF0005FF4C9 /* NetworkSessionMocks.swift in Sources */,
+				AC3616C922B8092E005FF4C9 /* LocationMapSelectViewControllerTests.swift in Sources */,
+				AC3616C722B75440005FF4C9 /* DDLiteTestNetworkCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,8 +497,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MBC34NW4QG;
 				INFOPLIST_FILE = DoorDashLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,8 +517,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MBC34NW4QG;
 				INFOPLIST_FILE = DoorDashLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBC34NW4QG;
 				INFOPLIST_FILE = DoorDashLiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,6 +562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBC34NW4QG;
 				INFOPLIST_FILE = DoorDashLiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

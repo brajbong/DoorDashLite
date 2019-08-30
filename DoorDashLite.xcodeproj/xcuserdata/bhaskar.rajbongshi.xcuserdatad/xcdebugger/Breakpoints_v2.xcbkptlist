@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/LocationMapSelectViewController.swift"
+            timestampString = "582504485.170143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "LocationMapSelectViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.map.getter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.879985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.map.setter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.882166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.map.modify : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.8843729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.map.modify : Swift.Optional&lt;__C.MKMapView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.88591"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; DoorDashLite.LocationMapSelectViewController"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.887527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.LocationMapSelectViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;DoorDashLite.LocationMapSelectViewController&gt;"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Controller/LocationMapSelectViewController.swift"
+                  timestampString = "582412700.88911"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/View Model/StoresListViewModel.swift"
+            timestampString = "582497135.173198"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getStores(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.StoresListViewModel.getStores(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/View%20Model/StoresListViewModel.swift"
+                  timestampString = "582419711.821576"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "231">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;DoorDashLite.Store&gt;) -&gt; () in DoorDashLite.StoresListViewModel.getStores(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/View%20Model/StoresListViewModel.swift"
+                  timestampString = "582419711.823182"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/View Model/StoresListViewModel.swift"
+            timestampString = "582497135.1732481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getStores(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Service/StoreService.swift"
+            timestampString = "582504485.170645"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchStores(lat:long:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorDashLite.StoreService.fetchStores(lat: Swift.Double, long: Swift.Double, completion: (Swift.Array&lt;DoorDashLite.Store&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Service/StoreService.swift"
+                  timestampString = "582420685.3936909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "781">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, DoorDashLite.NetworkError&gt;) -&gt; () in DoorDashLite.StoreService.fetchStores(lat: Swift.Double, long: Swift.Double, completion: (Swift.Array&lt;DoorDashLite.Store&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DoorDashLite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhaskar.rajbongshi/Desktop/Preparation%20Swfit/My%20own%20sample%20apps/DoorDashLite/DoorDashLite/Service/StoreService.swift"
+                  timestampString = "582420685.397222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/StoresListViewController.swift"
+            timestampString = "582495701.687117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/StoresListViewController.swift"
+            timestampString = "582495701.687178"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Custom Cell/StoresListCell.swift"
+            timestampString = "582504485.171016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "setStoreData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Custom Cell/StoresListCell.swift"
+            timestampString = "582504485.171237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "setImage(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/LocationMapSelectViewController.swift"
+            timestampString = "582504485.17129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "mapView(_:regionDidChangeAnimated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLiteTests/DDLiteTestNetworkCalls.swift"
+            timestampString = "582505546.661047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "testStoresFetchLoadsCorrectURL()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLiteTests/DDLiteTestNetworkCalls.swift"
+            timestampString = "582505546.661105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "testStoresFetchLoadsCorrectURL()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLiteTests/LocationMapSelectViewControllerTests.swift"
+            timestampString = "582504621.987679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLiteTests/LocationMapSelectViewControllerTests.swift"
+            timestampString = "582504621.9881639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testLocationMapSelectViewControllerIsComposedOfMapView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/LocationMapSelectViewController.swift"
+            timestampString = "582504485.1727231"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "mapView(_:didUpdate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorDashLite/Controller/LocationMapSelectViewController.swift"
+            timestampString = "582504485.172801"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "updateAnnotation(coordinate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

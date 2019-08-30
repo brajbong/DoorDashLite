@@ -18,8 +18,17 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>DoorDash</key>
+	<dict>
+		<key>listOfRestaurantsBaseURL</key>
+		<string>https://api.doordash.com/</string>
+		<key>listOfRestaurantsURLPath</key>
+		<string>v1/store_search/</string>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To show you great restaurants nearby</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
